@@ -1,0 +1,17 @@
+{
+  "name": "rxjs-marble-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "reveal-md": "^4.3.0",
+    "rxjs": "7.0.0-beta.9",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "sandbox": "ts-node ./code/index",
+    "present": "reveal-md ./presentation/presentation.md",
+    "export": "reveal-md  ./presentation/presentation.md --print rxjs-marble-testing.pdf"
+  }
+}
